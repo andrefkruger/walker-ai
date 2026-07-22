@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+.env
+
+# Editor
+.vscode/
+.idea/
+
+# Checkpoints do modelo (podem ser pesados — subir como Release, se quiser)
+*.pt
+*.pth
+
+# Logs / outputs de execução
+*.log
+runs/
+logs/
+
+# Sistema
+.DS_Store
+Thumbs.db
